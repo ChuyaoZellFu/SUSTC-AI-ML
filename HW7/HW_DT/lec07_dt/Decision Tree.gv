@@ -1,0 +1,15 @@
+digraph "Decision Tree" {
+	2956382790416 [label=astigmatic shape=box]
+	2956352347728 [label="should not be fitted with contact lenses" shape=""]
+	2956382790416 -> 2956352347728 [label=1 fontsize=10]
+	2956382795792 [label="spectacle prescription" shape=box]
+	2956382790352 [label="soft contact lenses" shape=""]
+	2956382795792 -> 2956382790352 [label=1 fontsize=10]
+	2956341670800 [label="age of the patient" shape=box]
+	2956381715536 [label="hard contact lenses" shape=""]
+	2956341670800 -> 2956381715536 [label=1 fontsize=10]
+	2956383542672 [label="should not be fitted with contact lenses" shape=""]
+	2956341670800 -> 2956383542672 [label=2 fontsize=10]
+	2956382795792 -> 2956341670800 [label=2 fontsize=10]
+	2956382790416 -> 2956382795792 [label=2 fontsize=10]
+}
